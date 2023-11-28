@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+     background-image: url(https://images.pexels.com/photos/997365/pexels-photo-997365.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+}
+.center{
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    transform: translate(-50% -50%);
+    width: 400px;
+    background-image:url(https://images.pexels.com/photos/6775241/pexels-photo-6775241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    border-radius: 10px;
+    
+
+}
+ h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 2px solid silver;
+ }
+ .center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+ }
+ 
+ .txt-field input{
+    width: 100%;
+    padding: 0 5px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    background-color: lightgoldenrodyellow;
+    outline: none;
+    
+ }
+ .txt-field label{
+font-size: larger;
+   
+ }
+ .fa-facebook {
+    background: #3B5998;
+    color: white;
+    height: 30px;
+    width: 20%;
+    border-radius: 20px;
+  }
+  .fa-instagram {
+    background: #f09433;
+    height: 30px;
+    width: 20%;
+    border-radius: 20px;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%)
+  
+}
+.div{
+   background-color: #3B5998;
+}
